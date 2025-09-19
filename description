@@ -1,0 +1,22 @@
+Business Problem: Forecast weekly store sales to improve inventory planning, promotions, and customer satisfaction.
+
+Data Work: Cleaned and merged 3 datasets (store info, historical sales, economic factors). Handled missing values with imputation and created lag + moving average features.
+
+EDA Insights: Holiday weeks had significantly higher sales, and store type “A” consistently outperformed others.
+
+Modeling:
+
+Baseline (Naive Forecast): RMSE ≈ 3940
+
+Random Forest: RMSE ≈ 3869 (improvement over baseline)
+
+Interpretation: Lagged sales were the most important predictors, followed by store size, holidays, and economic indicators.
+
+Visuals:
+📊 Sales trends over time
+📊 Holiday vs Non-Holiday comparison
+📊 Feature importance (Random Forest)
+📊 Actual vs Predicted plots
+
+Tools Used: Python (Pandas, NumPy, Scikit-learn), SQL (DuckDB), Matplotlib, Seaborn
+
